@@ -1,8 +1,6 @@
-# OSX Files - Clean and Update Scripts
+# Bash Files - Clean, Update and Profile Scripts
 
-### Introduction
-
-Bash scripts to clean and update OSX.
+## Portable Scripts for Every Machine
 
 ### Installation
 

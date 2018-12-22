@@ -38,8 +38,11 @@ echo "==> Running apt-get clean"
 apt-get clean
 echo "==> Running apt autoremove"
 apt autoremove --purge
-echo "==> Install git"
-apt-get install git-core
+
+# echo "==> Installing git"
+# apt-get install git-core
+# echo "==> Installing vim"
+# apt-get install vim-gtk
 
 # run last:
 echo "==> Running localepurge"

@@ -1,8 +1,6 @@
 #!/bin/bash
 
 # reference: https://github.com/boxcutter/ubuntu/blob/master/script/cleanup.sh
-# Make sure udev does not block our network - http://6.ptmc.org/?p=164
-
 echo "==> Cleaning up tmp"
 rm -rf /tmp/*
 

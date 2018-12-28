@@ -77,6 +77,8 @@ alias gg='git log'
 alias tt='git status'
 alias br='git branch'
 alias aa='git add -p'
+alias pm='git pull origin master; git push origin master; git gc'
+alias fm="git fetch upstream; git checkout master; git merge upstream/master"
 
 alias md="mongod"
 alias jp="jupyter notebook"

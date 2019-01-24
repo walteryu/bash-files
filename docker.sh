@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Ubuntu image setup:
+apt-get update
+apt install -y vim
+apt-get install git-core
+
 # reference: https://hub.docker.com/_/ruby/
 # echo "==> Running docker pull"
 # docker pull ruby
@@ -19,7 +24,7 @@
 # docker pull quay.io/azavea/raster-vision:cpu-0.8
 # docker run --rm -it quay.io/azavea/raster-vision:cpu-0.8 /bin/bash
 
-docker run --rm -it -p 6006:6006 \
-     -v ${RV_QUICKSTART_CODE_DIR}:/opt/src/code  \
-     -v ${RV_QUICKSTART_EXP_DIR}:/opt/data \
-     quay.io/azavea/raster-vision:cpu-0.8 /bin/bash
+# docker run --rm -it -p 6006:6006 \
+#      -v ${RV_QUICKSTART_CODE_DIR}:/opt/src/code  \
+#      -v ${RV_QUICKSTART_EXP_DIR}:/opt/data \
+#      quay.io/azavea/raster-vision:cpu-0.8 /bin/bash

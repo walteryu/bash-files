@@ -4,6 +4,7 @@
 apt-get update
 apt install -y vim
 apt-get install git-core
+sudo apt-get install openssh-server
 
 # reference: https://hub.docker.com/_/ruby/
 # echo "==> Running docker pull"

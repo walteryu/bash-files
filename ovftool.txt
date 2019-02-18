@@ -1,0 +1,16 @@
+VMWare Workstation to VirtualBox - OVF Conversion Tool:
+https://www.howtogeek.com/125640/how-to-convert-virtual-machines-between-virtualbox-and-vmware/
+https://www.maketecheasier.com/convert-virtual-machines-vmware-virtualbox/
+
+Instructions:
+1. Turn off VM before copying or else OVF Tool will return error
+1. Open CMD from Start Menu; note ovftool commmand will not work with PowerShell
+2. Navigate to OVF Tool directory with path below: `cd <ovftool_path>`
+3. Run OVF Tool command as noted below; process should return with success
+
+OVF Tool Path:
+"C:\Program Files (x86)\VMware\VMware Workstation\OVFTool"
+
+OVF CMD Command:
+ovftool "C:\Users\kharm\Documents\Virtual Machines\centos7.5-e63\centos7.5-e63.vmx" C:\Users\kharm\Documents\centos7.5-e63.ovf
+

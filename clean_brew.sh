@@ -6,6 +6,8 @@ brew update
 echo "==> Running brew upgrade"
 brew upgrade
 echo "==> Running brew cleanup"
+brew cleanup
+echo "==> Running brew cleanup"
 brew cleanup -s
 echo "==> Running brew cask cleanup"
 brew cask cleanup
@@ -14,7 +16,5 @@ echo "==> Running brew doctor"
 brew doctor
 echo "==> Running brew missing"
 brew missing
-echo "==> Running brew prune"
-brew prune
 echo "==> Running apm upgrade"
 apm upgrade -c false
